@@ -1,0 +1,2 @@
+money = float(input('How much reais(R$) do you have? '))
+print('With R${:.2f} you can buy U${:.2f}.'.format(money, money/3.27))
