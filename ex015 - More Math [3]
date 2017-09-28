@@ -1,0 +1,6 @@
+daysRented = int(input('For how many days did you rent the car? '))
+distanceDriven = int(input('And how many kilometers did you travel? '))
+print('According to the renting contract of U$60.00 per day '
+      'the card was rented and U$0.15 per traveled kilometer,\nYou\'ll have to pay U${:.2f}'
+      .format(daysRented*60 + distanceDriven*0.15))
+      
