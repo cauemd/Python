@@ -1,0 +1,5 @@
+num = int(input('Type a number: '))
+print('About the number {}:\n'
+      'Its double is {}\n'
+      'Its triple is {}\n'
+      'And its square root is {:.3f}'.format(num, num*2, num*3, pow(num,(1/2))))
