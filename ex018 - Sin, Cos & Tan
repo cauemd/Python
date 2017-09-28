@@ -1,0 +1,4 @@
+from math import sin, cos, tan, radians
+angle = int(input("Type the value of the angle: "))
+print("An angle of {}° will have a sine of {:.2f}, a cosine of {:.2f} and a tangent of {:.2f}"
+      .format(angle, sin(radians(angle)), cos(radians(angle)), tan(radians(angle))))
