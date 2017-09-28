@@ -1,0 +1,5 @@
+unit = float(input('Welcome to the unit converter!\nType your unit in meters: '))
+print('{:.3f} meters are equal to:\n{:.3f} feet\n{:.3f} inches\n{:.3f} miles'
+      '\n{:.3f} yards\n{:.3f} centimeters\n{:.3f} millimeters'
+      .format(unit, unit*3.28084, unit*39.3701, unit*0.000621371, unit*1.09361, unit*100, unit*1000))
+      
