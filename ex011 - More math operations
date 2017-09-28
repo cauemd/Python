@@ -1,0 +1,6 @@
+length = float(input('What is the length of your wall in meters? '))
+height = float(input('What is the height of your wall in meters? '))
+print('A wall with dimensions of {:.2f}x{:.2f}m has an area of {} m²'
+      '\nAnd considering that 1 litre of paint is sufficient for 2.00 m² of wall,'
+      ' \nyou will need {:.2f} litres of paint.'.format(length, height, length*height, (length*height)/2))
+      
