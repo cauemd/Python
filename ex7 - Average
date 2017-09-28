@@ -1,0 +1,4 @@
+grade1 = float(input('Type your first grade: '))
+grade2 = float(input('Type your second grade: '))
+print('Taking in account that your first grade was {} and your second grade was {},'
+      '\nthe average between them and your final grade is {:.2f}.'.format(grade1, grade2, (grade1+grade2)/2))
