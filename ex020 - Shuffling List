@@ -1,0 +1,9 @@
+import random
+students = []
+students.append(input('Type the name of the first student: '))
+students.append(input('Type the name of the second student: '))
+students.append(input('Type the name of the third student: '))
+students.append(input('Type the name of the fourth student: '))
+random.shuffle(students)
+print('The order of presentation will be {}, {}, {} and then {}.'
+      .format(students[0], students[1], students[2], students[3]))
