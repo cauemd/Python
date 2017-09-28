@@ -1,0 +1,3 @@
+from math import trunc
+num = float(input("Type any number with floating point: "))
+print("The integer part of the typed number is {}.".format(trunc(num)))
