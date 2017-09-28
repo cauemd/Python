@@ -1,0 +1,2 @@
+salary = float(input('Congratulations on your promotion! What is the value of previous salary? '))
+print('After the 15% raise you earned with the promotion, your salary now is {:.2f}.'.format(salary * 1.15))
