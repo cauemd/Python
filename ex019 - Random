@@ -1,0 +1,9 @@
+import random
+students = []
+students.append(input('Type the name of the first student: '))
+students.append(input('Type the name of the second student: '))
+students.append(input('Type the name of the third student: '))
+students.append(input('Type the name of the fourth student: '))
+print('The student that will have to clean the blackboard is {}.'
+      .format(random.choice(students)))
+      
