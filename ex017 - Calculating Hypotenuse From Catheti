@@ -1,0 +1,14 @@
+'''
+from math import pow, sqrt
+cathetus1 = float(input("Type the value of the first cathetus: "))
+cathetus2 = float(input("Type the value of the second cathetus: "))
+print("Considering a right triangle with chateti {} and {}, the hypotenuse"
+      " will be {:.2f}.".format(cathetus1, cathetus2,
+                           sqrt(pow(cathetus1, 2) + pow(cathetus2, 2))))
+'''
+
+from math import hypot
+cathetus1 = float(input("Type the value of the first cathetus: "))
+cathetus2 = float(input("Type the value of the second cathetus: "))
+print("Considering a right triangle with chateti {} and {}, the hypotenuse"
+      " will be {:.2f}.".format(cathetus1, cathetus2, hypot(cathetus1, cathetus2)))
