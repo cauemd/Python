@@ -1,0 +1,4 @@
+celcius = float(input('Type the temperature in °C: '))
+print('{:.1f}°C equals to {:.1f}°F and {:.1f}K!'
+      .format(celcius, (celcius*(9/5)+32), celcius + 273.15))
+      
