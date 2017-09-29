@@ -1,0 +1,10 @@
+from time import sleep
+salary = float(input('Please, insert your salary: U$'))
+print('Calculating raise....\n')
+sleep(3)
+if salary <= 1250:
+    print('Congratulations! Your new salary is U$ {:.2f}'
+          .format(salary * 1.15).replace('.', ',') + '.')
+else:
+    print('Congratulations! Your new salary is U$ {:.2f}'
+          .format(salary * 1.1).replace('.', ',') + '.')
