@@ -1,0 +1,6 @@
+num = int(input("Type a number: "))
+#print("The typed number is even." if num%2==0 else "The typed number is odd.")
+if num % 2 == 0:
+    print("The typed number is even.")
+else:
+    print("The typed number is odd.")
