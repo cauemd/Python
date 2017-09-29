@@ -1,0 +1,5 @@
+vel = int(input("Type the velocity of the car: "))
+if vel > 80:
+    print("You exceeded the 80,0 Km/h speed limit! You'll have to pay a U${},00 fine!"
+          .format(7 * (vel - 80)))
+print("Please, drive safe.")
