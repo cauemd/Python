@@ -1,0 +1,4 @@
+name = input('Please type your full name: ').strip()
+name = name.split() #creates a list with all the substrings, using space for separating definer as default
+print('Your first name is: {}'.format(name[0]))
+print('Your last name is: {}'.format(name[len(name) - 1]))
