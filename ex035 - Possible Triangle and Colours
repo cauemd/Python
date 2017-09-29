@@ -1,0 +1,14 @@
+colours = {'red': '\033[1;31m', 'green': '\033[1;32m', 'blue': '\033[1;34m', 'clear': '\033[m'}
+side1 = int(input('Type the size of the {}first{} triangle side: '.format(colours['red'], colours['clear'])))
+side2 = int(input('Type the size of the {}second{} triangle side: '.format(colours['green'], colours['clear'])))
+side3 = int(input('Type the size of the {}third{} triangle side: '.format(colours['blue'], colours['clear'])))
+if side1 + side2 > side3 and side2 + side3 > side1 and side3 + side1 > side2:
+    print('A triangle with sides {}{}{}, {}{}{} and {}{}{} is possible!'
+          .format(colours['red'], side1, colours['clear'],
+                  colours['green'], side2, colours['clear'],
+                  colours['blue'], side3, colours['clear']))
+else:
+    print('A triangle with sides {}{}{}, {}{}{} and {}{}{} is impossible!'
+          .format(colours['red'], side1, colours['clear'],
+                  colours['green'], side2, colours['clear'],
+                  colours['blue'], side3, colours['clear']))
