@@ -1,0 +1,10 @@
+from random import randint
+rng = randint(0, 5)
+num = int(input("Choose a round number from 0 to 5: "))
+print("You guessed {}, the computer guessed {}."
+      .format(num, rng))
+print('-=-' * 10)
+if rng == num:
+    print("You guessed correctly!")
+else:
+    print("Sorry, better luck next time!")
