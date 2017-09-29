@@ -1,0 +1,2 @@
+city = str(input('Type the name of the city where you were born: ')).strip()
+print('Is is true or false that your city starts with \'Santo\'?: {}'.format(city.upper().startswith('SANTO ')))
