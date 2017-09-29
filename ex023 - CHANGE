@@ -1,0 +1,5 @@
+numb = str(input('Type a number between \'0\' and \'9999\': '))
+print('Ones: {}'.format(numb[len(numb) - 1]))
+print('Tens: {}'.format(numb[len(numb) - 2]))
+print('Hundreds: {}'.format(numb[len(numb) - 3]))
+print('Thousands: {}'.format(numb[len(numb) - 4]))
