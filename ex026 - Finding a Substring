@@ -1,0 +1,7 @@
+string = str(input("Type a full sentence: ")).strip()
+print('The letter \'a\' is repeated {} times on the sentence;'
+      .format(string.lower().count('a')))
+print('The letter \'a\' first appearance is in the {}° position of the sentence.'
+      .format(string.lower().find('a') + 1))
+print('The letter \'a\' last appearance is in the {}° position of the sentence.'
+      .format(string.lower().rfind('a') + 1))
