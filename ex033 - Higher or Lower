@@ -1,0 +1,15 @@
+num1 = int(input('Type the first number: '))
+num2 = int(input('Type the second number: '))
+num3 = int(input('Type the third number: '))
+if (num1 > num2) & (num1 > num3):
+    print('The first number is the highest!')
+if (num1 < num2) & (num1 < num3):
+    print('The first number is the lowest!')
+if (num2 > num3) & (num2 > num1):
+    print('The second number is the highest!')
+if (num2 < num1) & (num2 < num3):
+    print('The second number is the lowest!')
+if (num3 > num1) & (num3 > num2):
+    input('The third number is the highest!')
+if (num3 < num1) & (num3 < num2):
+    input('The third number is the lowest!')
