@@ -1,0 +1,7 @@
+dist = int(input('How many kilometers will you be traveling by bus? '))
+if dist <= 200:
+    print('Your bus fare will be U$ {:.2f}'
+          .format(dist * 0.50).replace('.', ',') + '.')
+else:
+    print('Since your travelling further than 200Km, your bus fare will be'
+          ' U$ {:.2f}'.format(dist * 0.45).replace('.', ',') + '.')
